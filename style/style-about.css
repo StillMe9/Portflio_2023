@@ -172,7 +172,7 @@ body .intro .intro__photo {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: url(/img/조세영_스위스_사진.jpg);
+  background-image: url(/img/swiss_picture.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -289,7 +289,6 @@ html {
 .main::-webkit-scrollbar {
   width: 10px;
   border: 4px solid black;
-  display: none;
 }
 
 .main::-webkit-scrollbar-thumb {
