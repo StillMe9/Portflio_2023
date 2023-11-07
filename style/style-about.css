@@ -172,7 +172,7 @@ body .intro .intro__photo {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: url(./img/swiss_picture.jpg);
+  background-image: url(../img/swiss_picture.jpg);
   background-position: center;
   background-size: cover;
 }
