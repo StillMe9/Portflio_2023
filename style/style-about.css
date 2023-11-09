@@ -390,6 +390,7 @@ html {
     display: block;
     justify-content: center;
     align-items: center;
+    word-break: normal;
   }
   body .intro .intro__table .email-direct {
     margin: 5px 0;
