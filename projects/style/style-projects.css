@@ -317,6 +317,9 @@ html {
     font-size: 1.2rem;
     line-height: 2rem;
   }
+  body .main .projects {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
   body .main .projects .project .project__name {
     font-size: 1rem;
     width: 100%;
@@ -330,5 +333,8 @@ html {
   }
   body .main .projects .project:hover .project__name {
     justify-content: left;
+  }
+  body .main .projects .project .project__img {
+    height: 400px;
   }
 }/*# sourceMappingURL=style-projects.css.map */

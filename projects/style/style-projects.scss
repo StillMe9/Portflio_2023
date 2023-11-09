@@ -278,6 +278,7 @@ html {
         }
       }
       .projects {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         .project {
           .project__name {
             font-size: 1rem;
@@ -295,6 +296,10 @@ html {
             .project__name {
               justify-content: left;
             }
+          }
+
+          .project__img {
+            height: 400px;
           }
         }
       }
