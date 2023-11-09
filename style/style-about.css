@@ -387,7 +387,7 @@ html {
   body .intro .intro__parah {
     padding: 20px;
     text-align: center;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
   }
